@@ -1,7 +1,8 @@
 @import "./_variables";
 @import "./_navigation";
-@import "./masonry-post";
-@import "./post-masonry";
+@import "./_masonry-post";
+@import "./_post-masonry";
+@import "./posts";
 
 html body {
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");

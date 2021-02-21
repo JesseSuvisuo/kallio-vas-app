@@ -1,0 +1,33 @@
+.posts-app__wrapper {
+  width: 100%;
+  padding: 10px;
+}
+
+.posts-app__post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+
+  .wp-block-image,
+  .wp-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100% !important;
+      height: auto;
+    }
+
+    a {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      img {
+        max-width: 100% !important;
+        height: auto;
+      }
+    }
+  }
+}

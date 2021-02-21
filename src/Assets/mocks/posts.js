@@ -1,6 +1,6 @@
 import moment from "moment";
 
-export default [
+const posts = [
   {
     title: "Something happened",
     date: moment().format("MM DD, YYYY"),
@@ -58,3 +58,5 @@ export default [
       "https://kallionvasemmisto.fi/wp-content/uploads/2020/09/Baarissa061020.jpg",
   },
 ];
+
+export default posts;
